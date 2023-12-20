@@ -7,7 +7,7 @@ public class Main {
         double C = 10;
         double F = (C * 9 / 5) + 32;
         double K = C + 273.16;
-        System.out.println(C + " Celsius: " + F + " Fahrenheit: " + K + " Kelvin: ");
+        System.out.println("Celsius: " + C + " Fahrenheit: " + F + " Kelvin: " + K);
 
         double a = 10;
         double b = 15;
