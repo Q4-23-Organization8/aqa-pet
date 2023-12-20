@@ -10,6 +10,7 @@ public class HW4 {
             double a = 10;
             double b = 15;
             System.out.println("Площа прямокутного трикутника = " + a*b/2);
+            System.out.println("Площа прямокутного трикутника = " + a*b/2);
 
 
 
