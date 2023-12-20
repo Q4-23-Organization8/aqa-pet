@@ -8,9 +8,12 @@ public class HW4 {
             System.out.println(C + " Celsius:" + F + " Fahrenheit: " + K + " Kelvin: ");
 
             double a = 10;
-            double b = 40;
+            double b = 55;
             System.out.println("Площа прямокутного трикутника = " + a*b/2);
             System.out.println("Площа прямокутного трикутника = " + a*b/2);
+            System.out.println("Площа прямокутного трикутника = " + a*b/2);
+
+
 
 
 
