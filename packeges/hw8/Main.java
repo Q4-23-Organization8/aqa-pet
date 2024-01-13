@@ -1,6 +1,10 @@
 package hw8;
 
-import static hw8.Calculator.*;
+import static hw8.Calculator.sumCalculation;
+import static hw8.Calculator.subtractCalculation;
+import static hw8.Calculator.multiplyCalculation;
+import static hw8.Calculator.divideCalculatio;
+
 
 public class Main {
     public static void main(String[] args) {

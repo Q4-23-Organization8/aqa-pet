@@ -10,26 +10,31 @@ public class Users {
     public boolean isActive;
     public double amountSpentMoney;
 
-    //створення контейнерів
     public Users() {
 
     }
-    public Users(String userName) {
+
+    public Users(String userName)
+    {
         this.userName = userName;
     }
-    public Users(String userName, String password){
+
+    public Users(String userName, String password)
+    {
        this.userName = userName;
        this.password = password;
     }
-    //створення геттерів і сеттерів
 
     public void setAge(int age) {
         if (age >= 18 && age <= 100) {
             this.age = age;
-        } else {
+        }
+        else
+        {
             System.out.println("Invalid age. Age should be between 18 and 100.");
         }
     }
+
         public int getAge() {
         return age >= 18 ? age : 18;
     }
@@ -43,9 +48,10 @@ public class Users {
         if (password.length() == 8 ) {
             this.password = password;
         }
-     else {
+        else
+        {
         System.out.println("Invalid password. Password should contains 8 symbols.");
-    }
+        }
 }
 
     public String getPassword() {
@@ -56,12 +62,11 @@ public class Users {
             return null;
         }
     }
+
     public void printPassord() {
         System.out.println("password is: " + getPassword());
 
     }
-
-    //створення методів makePurchase() і printTotalAmountOfSpentMoney()
 
     public void makePurchase(double purchasePrice) {
         System.out.println("Вартість покупки, $: " + purchasePrice);
